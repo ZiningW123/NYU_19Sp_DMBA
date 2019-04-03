@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="age <= 35.838\nentropy = 1.0\nsamples = 100.0%\nvalue = [0.502, 0.498]\nclass = fail"] ;
+1 [label="age <= 35.546\nentropy = 0.897\nsamples = 10.2%\nvalue = [0.314, 0.686]\nclass = success"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="age <= 35.13\nentropy = 0.939\nsamples = 9.0%\nvalue = [0.356, 0.644]\nclass = success"] ;
+1 -> 2 ;
+3 [label="entropy = 0.872\nsamples = 8.2%\nvalue = [0.293, 0.707]\nclass = success"] ;
+2 -> 3 ;
+4 [label="entropy = 0.0\nsamples = 0.8%\nvalue = [1.0, 0.0]\nclass = fail"] ;
+2 -> 4 ;
+5 [label="entropy = 0.0\nsamples = 1.2%\nvalue = [0.0, 1.0]\nclass = success"] ;
+1 -> 5 ;
+6 [label="age <= 47.077\nentropy = 0.998\nsamples = 89.8%\nvalue = [0.523, 0.477]\nclass = fail"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="age <= 46.646\nentropy = 0.981\nsamples = 43.0%\nvalue = [0.581, 0.419]\nclass = fail"] ;
+6 -> 7 ;
+8 [label="entropy = 0.984\nsamples = 42.2%\nvalue = [0.573, 0.427]\nclass = fail"] ;
+7 -> 8 ;
+9 [label="entropy = 0.0\nsamples = 0.8%\nvalue = [1.0, 0.0]\nclass = fail"] ;
+7 -> 9 ;
+10 [label="years_customer <= 3.848\nentropy = 0.997\nsamples = 46.8%\nvalue = [0.47, 0.53]\nclass = success"] ;
+6 -> 10 ;
+11 [label="entropy = 0.999\nsamples = 45.0%\nvalue = [0.484, 0.516]\nclass = success"] ;
+10 -> 11 ;
+12 [label="entropy = 0.503\nsamples = 1.8%\nvalue = [0.111, 0.889]\nclass = success"] ;
+10 -> 12 ;
+}
