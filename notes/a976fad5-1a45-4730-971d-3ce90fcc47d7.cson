@@ -1,0 +1,29 @@
+createdAt: "2019-04-06T15:35:13.252Z"
+updatedAt: "2019-04-06T15:36:31.452Z"
+type: "MARKDOWN_NOTE"
+folder: "129fe27092c00a316fb9"
+title: "Data Mining for Business Analytics"
+tags: [
+  "DataScience"
+  "ClassNote"
+  "2019Spring"
+]
+content: '''
+  ## Data Mining for Business Analytics
+  ##### *2019/03/27*
+  ---
+  Ways to evaluate the model:
+  - **accuracy** = (TP+TN) / N
+    - N = # of test cases, not "negative."
+  - **recall** = TP / (TP+FN)
+    - TPR (True Positive Rt)
+  - **precision** = TP / (TP+FP)
+  - **AUC** (Area Under the Curve)
+  - **ROC** (Receiver Operating Characteristic) Curve
+    - **TPR** (*y-axis*) **/** **FPR** (False Positive Rt) (*x-axis*)
+      - *FPR = FP / (TN+FP)
+  
+'''
+linesHighlighted: []
+isStarred: false
+isTrashed: false
