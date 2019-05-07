@@ -1,0 +1,6 @@
+{
+    "_comment": "This is an example config, in your own respository rename this file to config.json and fill-in below. Follow this tutorial: https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example. You can delete this comment object from the config json afterwards.",
+
+    "NYT": {
+        "api-key": "NLCYrTn4RePttqAbpqA1Dlh3rx1Rzh4d"
+    },
