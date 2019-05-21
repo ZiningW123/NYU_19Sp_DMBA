@@ -1,0 +1,45 @@
+The matching is as follows:
+
+
+First
+++++++
+
+C) Cross-validation <==> Generalization Performance
+B) Domain-knowledge validation <==> Comprehensibility
+A) ROC curve <==> Ranking
+D) Overfitting avoidance <==> Complexity control
+
+
+
+Second
++++++++
+
+D) Holdout evaluation  <==>  Cross validation
+A) Domain Knowledge validation <==>  Sanity Checking
+C) Learning Curve  <==>  Increasing data
+E) Overfitting  <==>  Divergence
+B) Increasing Comprehensibility  <==>  Pruning
+
+
+
+
+Third
++++++++
+
+C) Learning Curves <==> Increasing training data
+D) Fitting Curves kNN <==> Increasing complexity
+B) Information Gain <==> Increasing Tree size
+A) Cumulative Response Curve <==> Increasing Proportion Targeted
+E) Increasing Mann-Whitney-Wilcoxon <==> Increasing AUC
+
+
+
+Fourth
++++++++++
+
+C) Entropy <==> How mixed up classes are
+A) Logistic <==> Log Ods
+E) Information Gain <==> Difference between parents / children
+D) accuracy <==> higher on training data
+B) regression <==> numeric target
+F) lift <==> better with model than without
